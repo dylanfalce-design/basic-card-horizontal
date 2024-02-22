@@ -4,15 +4,25 @@
     box-sizing: border-box;
     /* border: 1px solid blue; */
     }
-
-
-body {
-    background-color: rgb(161, 74, 74);
-    background-image: url("assets/cardbackground.pdf");
+  
+image { 
+    background-color: rgb(203, 22, 161);
+    background-image: url("icons.jpg");
     background-repeat: no-repeat;
     overflow: hidden;
     background-size: cover;
+   }
+
+body {
+    background-color: rgb(161, 74, 74);
+    background: url("assets/cardbackground.pdf");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+
 }
+
+
 /* the main card container */
 
 .card{
