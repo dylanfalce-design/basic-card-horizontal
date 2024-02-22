@@ -12,6 +12,7 @@ body {
     background-repeat: no-repeat;
     overflow: hidden;
     background-size: cover;
+    display: grid;
 
 }
 /* the main card container */
@@ -27,6 +28,7 @@ body {
   overflow: hidden;
   box-shadow: 4px 10px 15px 10px #17161694;
   background-color:rgb(255, 120, 85);
+  z-index:2;
 }
 
 
@@ -77,9 +79,9 @@ h3{
   font-weight: 400;
   text-align: left;
   position: relative; 
-  top: 8px;
+  top: 40px;
   font-size:16px;
-  left: 140px;
+  left: 200px;
 
 }
 /* How links are styled on page load and also after a link has been visited */
@@ -94,6 +96,10 @@ a:hover {
   color: rgb(17, 68, 207);
 }
 
+.foreground{
+  z-index: 100;
+}
+
 /* specific styling to scale elements down for mobile */
 @media only screen and (max-width: 900px) {
   
@@ -106,6 +112,16 @@ a:hover {
     transform: translate(-50%, -50%);
     margin: 0 auto;
   }
-  
+  h3{
+    margin-top: 0px;
+    padding-top: 0px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    text-align: left;
+    position: relative; 
+    top: 10px;
+    font-size:16px;
+    left: 175px;
 
   }
+}
