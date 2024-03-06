@@ -42,7 +42,7 @@ body {
   transform: translate(-50%, -50%);
   margin: 0 auto;
   overflow: hidden;
-  box-shadow: 4px 10px 15px 10px #17161694;
+  
   /* background-color:rgb(255, 120, 85); */
   z-index:200;
 }
